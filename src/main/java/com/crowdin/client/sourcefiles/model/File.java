@@ -13,6 +13,7 @@ import java.util.Date;
 public class File extends FileInfo {
 
     private Long revisionId;
+    private Long revision;
     private Priority priority;
     private ImportOptions importOptions;
     private ExportOptions exportOptions;
